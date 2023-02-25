@@ -1,0 +1,108 @@
+.Landingpage{
+    margin-top: 90px;
+    width: 100%;
+    .Hero_Banner{
+        background-image: url('../../assets/image_25.jpg');
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        padding: 100px;
+        h1{
+            font-size: 62px;
+            padding: 100px 10px;
+            width: 650px;
+            text-align: center;
+            text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
+            word-spacing: 10px;
+            letter-spacing: 5px;
+        }
+    }
+    .Learning_Path{
+        padding: 10px 50px;
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 800;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #999;
+        }
+        .work{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .work_buttons{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin: 50px 10px;
+                img{
+                    height: 100px;
+                    width: 100px;
+                    margin-bottom: 10px;
+                }
+                span{
+                    font-size: 24px;
+                    margin: 10px;
+                    background-color: #333;
+                    padding: 10px 15px;
+                    border-radius: 15px;
+                    color: white;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .Partner {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 100px;
+        .University_Partner {
+            h3{
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 24px;
+                font-weight: 800;
+            }
+          .partners {
+            img {
+              width: 100px;
+              height: 70px;
+              margin: 20px;
+              cursor: pointer;
+            }
+          }
+        }
+        .User_Review {
+          background-color: whitesmoke;
+          padding: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          .view_profile {
+            display: flex;
+            flex-direction: column;
+            img {
+              width: 100px;
+              height: 100px;
+              margin: 10px;
+            }
+            span {
+              text-align: center;
+            }
+          }
+          .review {
+            flex-direction: row;
+            width: 400px;
+            .rating{
+                margin-top: 20px;
+            }
+          }
+        }
+      }
+}

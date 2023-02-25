@@ -1,0 +1,25 @@
+[{
+    "tasks": [
+        {
+            "upload_submission_file_type": "pdf",
+            "task_title": "Concrete mixing measurements",
+            "description_start": "",
+            "resources_links_to_help_task": [
+                "link1",
+                "link2"
+            ],
+            "descrition_bullet_points": [
+                "point 1",
+                "point 2"
+            ],
+            "eta": "2 Hours"
+        }
+    ],
+    "spoc": "Suanjana Biswas",
+    "project_description": "At John Holland we make cities smaller by building roads, tunnels and bridges that get you home faster and more safely. Our experts in engineering, tunnelling and customer service deliver solutions to cut travelling time, connect communities and make the distance between us seem smaller. As an infrastructure graduate you will develop your skills to read drawings, review and analyse subcontractor tenders and manage your own packages of works. ",
+    "eta": "10 Hours",
+    "project_id": "80000001",
+    "project_title": "Building and Construction",
+    "company_id": "C00001",
+    "project_field": "tech"
+}]
