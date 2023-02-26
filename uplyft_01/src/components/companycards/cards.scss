@@ -1,0 +1,57 @@
+.companyCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .card {
+    background-color: #777;
+    border-radius: 15px;
+    width: 25%;
+    height: auto;
+    margin: 50px 10px;
+    box-shadow: 18px 18px 21px -9px rgba(0,0,0,1);
+    color: white;
+
+    img {
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+    }
+    .card_data {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      span{
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px;
+      }
+      .company_name{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+      .time{
+        text-align: right;
+      }
+      .Field{
+        font-weight: normal;
+      }
+      .Apply{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover{
+            border: none;
+            background-color: #333;
+            color: white;
+        }
+      }
+    }
+  }
+}

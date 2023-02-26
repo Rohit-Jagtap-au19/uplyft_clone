@@ -1,44 +1,49 @@
 .Sidebar {
+  flex: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
   background-color: #333;
   width: 300px;
   height: 100vh;
   padding: 20px;
   .Menu_Icons {
     color: white;
-    // margin: 70px 0px;
     margin-top: 70px;
     margin-bottom: 30px;
     text-align: right;
-    .menuicon{
-        padding: 10px;
-        border-radius: 15px;
-        &:hover {
-            background-color: #999;
-            cursor: pointer;
-          }
+    .menuicon {
+      padding: 10px;
+      border-radius: 15px;
+      &:hover {
+        background-color: #999;
+        cursor: pointer;
+      }
     }
   }
   .Side_Links {
     ul {
-      li {
-        display: flex;
-        align-items: center;
-        // margin: 20px;
-        // justify-content: space-evenly;
+      a {
         color: white;
-        text-align: center;
-        padding: 10px;
-        border-radius: 15px;
-        &:hover {
-          background-color: #999;
-          cursor: pointer;
-        }
-        a {
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        li {
+          display: flex;
+          align-items: center;
           color: white;
-          text-decoration: none;
-          font-size: 20px;
-          text-transform: uppercase;
-          margin: 20px;
+          text-align: center;
+          padding: 10px;
+          margin: 35px 0;
+          border-radius: 15px;
+          // justify-content: space-evenly;
+          &:hover {
+            background-color: #999;
+            cursor: pointer;
+          }
+          .sidenav-icons{
+            margin-right: 20px;
+          }
         }
       }
     }

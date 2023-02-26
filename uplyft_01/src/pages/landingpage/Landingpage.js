@@ -18,6 +18,7 @@ import img14 from "../../assets/Compnay_logo/image43.png";
 import img15 from "../../assets/Compnay_logo/image44.png";
 import img16 from "../../assets/fallbackimage.png";
 import Footer from "../../components/footer/Footer";
+import Navbar from "../../components/navbar/Navbar";
 
 
 const Landingpage = () => {
@@ -50,6 +51,7 @@ const Landingpage = () => {
 
   return (
     <div className="Landingpage">
+    <Navbar/>
       <section className="Hero_Banner">
         <h1>
           Virtual Internship That Has A Promise Of @Office Internship And Job?

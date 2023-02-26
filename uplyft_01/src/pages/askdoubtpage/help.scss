@@ -1,0 +1,89 @@
+.Ask_Page{
+    display: flex;
+    .Ask_Doubt{
+        padding: 10px 100px;
+        flex: 5;
+        width: 100%;
+        .container{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: white;
+            .row{
+                .select{
+                    border: 1px solid black;
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    width:  250px;
+                    color: black;
+                    background-color: whitesmoke;
+                    &::placeholder{
+                        font-size: 20px;
+                        color: black;
+                        text-align: center;
+                        
+                    }
+                }
+                .doubt{
+                    font-weight: 600;
+                    margin-top: 10px;
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    padding:20px;
+                    height: 300px;
+                    width: 100%;
+                    font-size: 28px;
+                    position: relative;
+                    background-color: whitesmoke;
+                    &::placeholder{
+                        font-size: 28px;
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        padding: 10px;
+                    }
+                }
+                button{
+                    float: right;
+                    height: 50px;
+                    width: 200px;
+                    margin-top: 10px;
+                    border-radius: 20px;
+                    background-color: #3b5c62;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    &:hover{
+                        border: none;
+                        background-color: #333;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+        }
+        .QNA{
+            font-size: 24px;
+            font-weight: 600;
+            .Question{
+                line-height: 3rem;
+                margin: 10px;
+                .project{
+                    font-size: 26px;
+                    font-weight: 400;
+                }
+                .question{
+                    font-weight: 800;
+                }
+                .answer{
+                    color: #3b5c62;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
