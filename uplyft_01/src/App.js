@@ -6,6 +6,8 @@ import Help from "./pages/askdoubtpage/Help";
 import Announcment from "./pages/announcmentpage/Announcment";
 import Dashboard from "./pages/dashboardpage/Dashboard";
 import Profile from "./pages/profilepage/Profile";
+import Assignment from "./pages/assignmentpage/Assignment";
+import Company from "./pages/companypage/Company";
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
           <Route exact path="/help" element={<Help />} />
           <Route exact path="/dashboard" element={<Dashboard/>} />
           <Route exact path="/profile" element={<Profile/>} />
-          <Route exact path="/announcements" element={<Announcment />} />
-          
+          <Route exact path="/announcements" element={<Announcment />}/>
+          <Route exact path="/assignment" element={<Assignment/>} />
+          <Route exact path="/company" element={<Company/>} />
+
         </Routes>
       </BrowserRouter>
     </div>
