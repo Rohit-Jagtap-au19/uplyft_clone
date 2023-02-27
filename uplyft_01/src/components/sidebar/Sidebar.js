@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./sidebar.scss";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { RxDashboard, RxPerson } from "react-icons/rx";
@@ -7,6 +7,7 @@ import { MdOutlineHelpOutline } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
+  const [isOpen, setIsOpen] = useState(true)
   const sidelinks = [
     {
       name: "dashboard",
@@ -30,16 +31,16 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="Sidebar">
+    <div className="Sidebar" style={{ width: isOpen ? "300px" : "80px" }}>
       <div className="Menu_Icons">
-        <AiOutlineMenuUnfold size="60" className="menuicon" />
+        <AiOutlineMenuUnfold size="60" className="menuicon" onClick={() => setIsOpen(!isOpen)}/>
       </div>
       <div className="Side_Links">
         {sidelinks.map((link) => {
           return (
             <ul>
               <Link to={link.link}>
-                <li>
+                <li className={isOpen ? "list-item" : "hide-item"}>
                   {link.icon}
                   {link.name}
                 </li>
