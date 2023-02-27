@@ -1,4 +1,5 @@
 import './cards.scss'
+import { Link } from "react-router-dom";
 import SectionData from '../../assets/section1.json'
 
 const Cards = () => {
@@ -16,7 +17,9 @@ const Cards = () => {
             <span className='Title'>{item.project_title}</span>
             <span className='Field'>{item.project_field}</span>
             <span className='time'>{item.eta}</span>
+            <Link to='/company'>
             <button className='Apply'>Apply Now</button>
+            </Link>
             </div>
           </div>
         )

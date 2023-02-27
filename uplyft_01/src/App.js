@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/announcements" element={<Announcment />}/>
           <Route exact path="/assignment" element={<Assignment/>} />
           <Route exact path="/company" element={<Company/>} />
-
         </Routes>
       </BrowserRouter>
     </div>

@@ -11,6 +11,7 @@ const Company = () => {
         <Sidebar/>
         <div className="company_data">
             <h1>Company data comming soon</h1>
+            
         </div>
     </div>
     </section>
